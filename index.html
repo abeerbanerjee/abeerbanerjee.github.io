@@ -22,13 +22,10 @@
                 <p class="name" style="text-align: center;">
                   Abeer Banerjee
                 </p>
-                <p>I am currently a third-year <a href="https://acsir.res.in">AcSIR</a> Integrated Ph.D. student at <a href="https://ceeri.res.in">CSIR-CEERI</a>, Pilani, India. My academic pursuits revolve around the exploration of learning-based image reconstruction methods for computational imaging, under the supervision of <a href="https://scholar.google.com/citations?user=LTVBjxsAAAAJ&hl=en">Dr. Sanjay Singh</a>. 
+                <p>I am currently a third-year <a href="https://acsir.res.in">AcSIR</a> Integrated Ph.D. student at <a href="https://ceeri.res.in">CSIR-CEERI</a>, Pilani, India. My academic pursuits revolve around the exploration of learning-based image reconstruction methods for computational imaging, under the supervision of <a href="https://sites.google.com/site/sanjaycsirceeri/home?authuser=0">Dr. Sanjay Singh</a>. 
                 </p>
                 <p>
-                  Before joining CSIR-CEERI, I completed my bachelor's degree in Electronics and Communication Engineering from the <a href="https://www.caluniv.ac.in/academic/rpe.html">IRPE</a>, University of Calcutta, Kolkata, India. 
-                </p>
-                <p>
-                  Beyond my scholarly endeavors, I find great fascination in the fields of philosophy and photography.
+                  Before joining CSIR-CEERI, I completed my bachelor's degree in Electronics and Communication Engineering from the <a href="https://www.caluniv.ac.in/academic/rpe.html">IRPE</a>, University of Calcutta, Kolkata, India. Beyond my scholarly endeavors, I find great fascination in the fields of philosophy and photography.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:abeer.ceeri20a@acsir.res.in">Email</a> &nbsp;|&nbsp;
@@ -83,7 +80,7 @@
           <br>
           <strong>Abeer Banerjee</strong>, Himanshu Kuamr, Sumeet Saurav, Sanjay Singh
           <br>
-          <em>BMVC</em>, 2023
+          <em>British Machine Vision Conference (BMVC)</em>, 2023
           <br>
           <a href="https://abeerbanerjee.github.io/BMVC-Lensless/">Project page</a>
           /
@@ -97,10 +94,10 @@
         </td>
       </tr>
       
-      <tr onmouseout="lwgnet_stop()" onmouseover="lwgnet_start()" >
+      <tr onmouseout="icip_stop()" onmouseover="icip_start()" >
        <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-        <div class="two" id = 'lwgnet_image'><img src='images/un1.jpg' width='160' height='140'></div>
+        <div class="two" id = 'icip_image'><img src='images/un1.jpg' width='160' height='140'></div>
         <img src='images/f1.jpg' width='160' height='140'>
         </div>                
         <script type="text/javascript">
@@ -125,39 +122,64 @@
       </td>
     </tr>
 
-            
-      <tr onmouseout="db3d_stop()" onmouseover="db3d_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <div class="two" id='db3d_image'><img src='images/un1.jpg' width="160"></div>
-            <img src='images/fl.jpg' width="160">
-          </div>
-          <script type="text/javascript">
-            function db3d_start() {
-              document.getElementById('db3d_image').style.opacity = "1";
-            }
 
-            function db3d_stop() {
-              document.getElementById('db3d_image').style.opacity = "0";
-            }
-            db3d_stop()
-          </script>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://abeerbanerjee.github.io/pidd/">
-            <span class="papertitle">Physics-informed Deep Deblurring: Over-parameterized vs. Under-parameterized</span>
-          </a>
-          <br> 
-          <strong>Abeer Banerjee</strong>, Sumeet Saurav, Sanjay Singh
-          <br>
-          <em>ICIP</em>, 2023
-          <br>
-          <a href="https://abeerbanerjee.github.io/pidd/">Project page</a> / 
-          <a href="https://ieeexplore.ieee.org/document/10222063">Paper</a>
+
+    <tr onmouseout="tvcj_stop()" onmouseover="tvcj_start()" >
+       <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+        <div class="two" id = 'tvcj_image'><img src='images/nargis_col_x2.jpg' width='160' height='224'></div>
+        <img src='images/nargis_bnw.jpg' width='160' height='224'>
+        </div>                
+        <script type="text/javascript">
+        function lwgnet_start() {
+        document.getElementById('tvcj_image').style.opacity = "1";
+        }
+        function lwgnet_stop() {
+        document.getElementById('tvcj_image').style.opacity = "0";
+        }
+        pixel_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        
+        <papertitle><a href="https://link.springer.com/article/10.1007/s00371-023-03067-7">ParaColorizer: Realistic Image Colorization using Parallel Generative Networks</a></papertitle><br>
+          Himanshu Kumar*, <strong>Abeer Banerjee*</strong>, Sumeet Saurav, Sanjay Singh<be> (*Equal Contribution)
+        <em>The Visual Computer, Springer 2023 </font></em><br>
+          <a href="https://arxiv.org/abs/2208.08295">arXiv</a> / 
+          <a href="https://link.springer.com/article/10.1007/s00371-023-03067-7">Paper</a>
           <p></p>
-          <p>We compare the reconstruction performance with untrained over-parameterized networks having over 30 million parameters. We employ a physics-informed consistency loss function to optimize our network, leading to faster convergence and better reconstruction quality.</p>
-        </td>
-      </tr>
+        <p>We proposed specialized GANs for parallel colorization of foreground and background, alongside a dense adaptive fusion network for feature-based integration of intermediate results. Our approach achieved superior performance compared to the state-of-the-art, using only a fraction of the training data. Also, we identified shortcomings in conventional non-perceptual evaluation metrics and presented a novel human-visual realism test to assess results more effectively. </p>
+      </td>
+    </tr>
+
+
+
+    <tr onmouseout="ivcnz_stop()" onmouseover="ivcnz_start()" >
+       <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+        <div class="two" id = 'ivcnz_image'><img src='images/un.jpg' width='160' height='140'></div>
+        <img src='images/f.jpg' width='160' height='140'>
+        </div>                
+        <script type="text/javascript">
+        function lwgnet_start() {
+        document.getElementById('ivcnz_image').style.opacity = "1";
+        }
+        function lwgnet_stop() {
+        document.getElementById('ivcnz_image').style.opacity = "0";
+        }
+        pixel_stop()
+        </script>
+      </td>
+      <td style="padding:20px;width:75%;vertical-align:middle">
+        
+        <papertitle><a href="https://link.springer.com/chapter/10.1007/978-3-031-25825-1_31">Lensless Image Reconstruction with an Untrained Neural Network</a></papertitle><br>
+          <strong>Abeer Banerjee</strong>, Himanshu Kumar, Sumeet Saurav, Sanjay Singh<br>
+        <em>Image and Vision Computing New Zealand (IVCNZ), 2022</font></em><br> 
+          <a href="https://link.springer.com/chapter/10.1007/978-3-031-25825-1_31">Paper</a>
+          <p></p>
+        <p>We used a physics-guided consistency loss function to optimize our model to perform reconstruction and PSF estimation. Our model generates accurate non-blind reconstructions with a PSNR of 24.55 dB.</p>
+      </td>
+    </tr>
 
 
 
@@ -177,7 +199,7 @@
           <table width="100%" align="center" border="0" cellpadding="20"><tbody>
             
             <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/cvf.jpg"></td>
+              <td style="padding:20px;width:25%;vertical-align:middle"><img src="images/iuprai.png"></td>
               <td width="75%" valign="center">
                 <a>Reviewer, ICVGIP 2022</a>
                 <br>
