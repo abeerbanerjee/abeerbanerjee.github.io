@@ -189,7 +189,7 @@ p, li {
 }
 
 
-@media (max-width: 768px) {
+/*@media (max-width: 786px) {
   .about-section {
     flex-direction: column;
     align-items: center;
@@ -219,7 +219,7 @@ p, li {
   body {
     font-size: 0.95rem;
   }
-}
+}*/
 
 .bengali-name {
   font-size: 1rem;
