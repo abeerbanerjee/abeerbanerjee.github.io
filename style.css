@@ -1,6 +1,7 @@
 body {
   font-family: "Georgia", "Garamond", serif;
-  background-color: #ddc6c6;
+  background-color: indianred;
+  /*background-color: #ddc6c6;*/
   color: #333;
   margin: 0;
   padding: 0;
@@ -70,12 +71,13 @@ p, li {
   gap: 15px;
   padding: 15px;
   border-radius: 12px;
-  background-color: whitesmoke;
+  background-color: ghostwhite;
   transition: background-color 0.3s;
 }
 
 .pub-entry.highlight {
-  background-color: #fff9d4;
+  background-color: lemonchiffon;
+  /*background-color: #fff9d4;*/
   border-left: 4px solid #007acc;
 }
 
@@ -131,7 +133,7 @@ p, li {
 
 .nav-button {
   padding: 10px 20px;
-  background-color: steelblue;
+  background-color: indianred;
   color: white;
   text-decoration: none;
   border-radius: 20px;
@@ -140,14 +142,14 @@ p, li {
 }
 
 .nav-button:hover {
-  background-color: #005b9f;
+  background-color: lightsalmon;
 }
 
 
 .info-card {
   display: flex;
   align-items: center;
-  background-color: floralwhite;
+  background-color: lemonchiffon;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   padding: 15px;
@@ -189,41 +191,20 @@ p, li {
 }
 
 
-/*@media (max-width: 786px) {
-  .about-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .profile-pic {
-    margin-bottom: 20px;
-    max-width: 140px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  h2 {
-    font-size: 1.4rem;
-  }
-
-  .section-title {
-    font-size: 1.3rem;
-  }
-
-  .section-content {
-    font-size: 1rem;
-  }
-
-  body {
-    font-size: 0.95rem;
-  }
-}*/
 
 .bengali-name {
   font-size: 1rem;
   font-family: 'Noto Serif Bengali', serif;
   margin-top: -8px;
-  color: indianred;
+  color: black;
+}
+
+a {
+  color: indianred;   /* or any color you want */
+  text-decoration: none;  /* removes underline */
+}
+
+a:hover {
+  color: crimson;   /* hover color */
+  text-decoration: none;  /* or keep none if you prefer */
 }
