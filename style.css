@@ -1,16 +1,3 @@
-
-@font-face {
-  font-family: 'rayfont';
-  src: url('fonts/raybizarre.woff2') format('woff2'),
-       url('fonts/raybizarre.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.my-name {
-  font-family: 'rayfont', sans-serif;
-}
-
 body {
   font-family: "Georgia", "Garamond", serif;
   background-color: indianred;
@@ -29,12 +16,8 @@ body {
 }
 
 h1 {
-  font-size: 1.7em;
+  font-size: 2.5em;
   margin-bottom: 0.2em;
-}
-
-.big-letter {
-  font-size: 2.5rem;
 }
 
 h2 {
