@@ -27,6 +27,13 @@ h2 {
   padding-bottom: 4px;
 }
 
+h3 {
+  font-size: 1.2em;
+  margin-top: 2em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+}
+
 p, li {
   font-size: 1.05em;
   line-height: 1.6;
@@ -97,6 +104,18 @@ p, li {
 
 .pub-title, .pub-venue, .pub-authors, .pub-links {
   margin-bottom: 5px;
+}
+
+.pub-title {
+  font-size: 1.05rem;
+}
+
+.pub-venue {
+  color:#555;
+}
+
+.pub-authors {
+  font-size: 0.9rem;
 }
 
 .pub-links a {
@@ -198,6 +217,13 @@ p, li {
   color: black;
 }
 
+.tagline {
+  margin-top: 6px;
+  font-size: 0.95rem;
+  color: darkred;
+}
+
+
 a {
   color: indianred;   /* or any color you want */
   text-decoration: none;  /* removes underline */
@@ -206,4 +232,68 @@ a {
 a:hover {
   color: crimson;   /* hover color */
   text-decoration: none;  /* or keep none if you prefer */
+}
+
+.pub-impact {
+  font-size: 0.85rem;
+  color: #099;
+  margin-bottom: 6px;
+}
+
+.pub-summary {
+  font-size: 0.95rem;
+  color: #999;
+  line-height: 1.45;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .social-icons img {
+    filter: invert(1) grayscale(100%);
+  }
+
+  body {
+    background-color: #1e1e1e;   /* blackish gray */
+    color: #eaeaea;              /* milky white */
+  }
+
+  .container {
+    background-color: #2b2b2b;   /* blackish gray card */
+    color: #eaeaea;
+  }
+
+  h1, h2, h3,
+  p, li,
+  .info-title,
+  .info-subtitle,
+  .info-extra,
+  .pub-title,
+  .pub-details
+  
+  .pub-venue{
+    color: #eaeaea;
+  }
+
+  .pub-entry {
+    background-color: transparent;
+  }
+  .pub-entry.highlight {
+    background-color: rgba(205, 92, 92, 0.25); /* indianred with transparency */
+  }
+  .info-card {
+    background-color: rgba(205, 92, 92, 0.75);
+  }
+  .pub-authors {
+    color: #eaeaea;
+  }
+
+  /* Bengali name was explicitly black */
+  .bengali-name {
+    color: #eaeaea;
+  }
+  .tagline {
+    color: #eaeaea;
+  }
 }
